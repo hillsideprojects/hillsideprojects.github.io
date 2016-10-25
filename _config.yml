@@ -91,4 +91,4 @@ prose:
         field:
           element: "checkbox"
           label: "Make the project featured"
-          value: "false"
+          value: "true"
