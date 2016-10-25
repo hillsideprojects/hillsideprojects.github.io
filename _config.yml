@@ -57,7 +57,7 @@ authors:
 prose:
   media: 'images'
   metadata:
-    content/post:
+    _posts:
       - name: "title"
         field:
           element: "text"
