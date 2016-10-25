@@ -11,7 +11,7 @@ email:            info@hillsideprojects.se
 description:      A portfolio of the research/production group formed by Emily Mennerdahl and Jonas Böttern.
 baseurl:          '' # The subpath of your site, e.g. /blog
 url:              'https://hillsideprojects.github.io/' # The base hostname & protocol for your site
-facebook_username:  HillsideProjects
+facebook_username: HillsideProjects
 vimeo_username: user31098743
 
 markdown:  kramdown
@@ -50,5 +50,45 @@ authors:
     gravatar:         https://s.gravatar.com/avatar/f83141edd9e6339e678648596a403fd5?s=150
     email:            info@hillsideprojects.se
     website:          https://hillsideprojects.se
-    github_username:  ahmadajmi
-    twitter_username: ahmadajmi
+    facebook_username:  HillsideProjects
+    vimeo_username: user31098743
+
+# Prose configuration https://github.com/prose/prose/wiki/Prose-Configuration
+prose:
+  media: 'images'
+  metadata:
+    content/post:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          placeholder: "The title that your readers see on the page."
+      - name: "description"
+        field:
+          element: "textarea"
+          label: "Description"
+          placeholder: "Used by social media and Google in search results page."
+      - name: "image"
+        field:
+          element: "text"
+          label: "Project Image"
+          placeholder: "Image URL e.g. /images/posts/myfile.jpg"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          options:
+            - name: "Video"
+              value: "Video"
+            - name: "Performance"
+              value: "performance"
+            - name: "Installation"
+              value: "installation"
+            - name: "Exhibition"
+              value: "exhibition"
+          alterable: True
+      - name: "featured"
+        field:
+          element: "checkbox"
+          label: "Make the project featured"
+          value: "false"
