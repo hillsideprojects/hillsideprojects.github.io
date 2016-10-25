@@ -6,11 +6,11 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title:            Midan
-email:            your-email@domain.com
-description:      Clean and Fast Jekyll Blog Theme
+title:            Hillside Projects
+email:            info@hillsideprojects.se
+description:      A portfolio of the research/production group formed by Emily Mennerdahl and Jonas Böttern.
 baseurl:          '' # The subpath of your site, e.g. /blog
-url:              'https://midan-jekyll.aerobatic.io' # The base hostname & protocol for your site
+url:              'https://hillsideprojects.github.io/' # The base hostname & protocol for your site
 github_username:  aspirethemes
 twitter_username: aspirethemes
 
@@ -45,10 +45,10 @@ defaults:
 # Authors
 authors:
   ahmad:
-    name:             Ahmad Ajmi
-    bio:              Author & developer of Aspire Themes. Minimalist. I love creating clean and minimal websites.Technical writer at SitePoint.
+    name:             Hillside Projects
+    bio:              Hillside Projects is a research and production group consisting of artists Emily Mennerdahl and Jonas Böttern. Hillside Projects works interdisciplinary and mainly focuses on the development and changes in the natural world. Always trying to dismantle and re-consider the things, the things as we know them. The things we like to consider facts or even knowledge.
     gravatar:         https://s.gravatar.com/avatar/f83141edd9e6339e678648596a403fd5?s=150
-    email:            info@aspirethemes.com
-    website:          http://aspirethemes.com
+    email:            info@hillsideprojects.se
+    website:          https://hillsideprojects.se
     github_username:  ahmadajmi
     twitter_username: ahmadajmi
