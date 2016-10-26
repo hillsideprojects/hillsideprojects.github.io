@@ -27,20 +27,20 @@
       </div>
       {% endif %}
 
-      {% if site.vimeo_username %}
-      <li>
+      {% if author.vimeo_username %}
+      <div class="author-link inline-block">
         <a href="https://vimeo.com/{{ site.vimeo_username }}" target="_blank">
           <span data-icon="ei-sc-vimeo" data-size="s"></span>
         </a>
-      </li>
+      </div>
       {% endif %}
 
       {% if site.facebook_username %}
-      <li>
+        <div class="author-link inline-block">
         <a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank">
           <span data-icon="ei-sc-facebook" data-size="s"></span>
         </a>
-      </li>
+      </div>
       {% endif %}
 
       {% if author.email %}
