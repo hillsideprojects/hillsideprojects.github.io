@@ -44,7 +44,7 @@ defaults:
 
 # Authors
 authors:
-  ahmad:
+  hillside:
     name:             Hillside Projects
     bio:              Hillside Projects is a research and production group consisting of artists Emily Mennerdahl and Jonas Böttern. Hillside Projects works interdisciplinary and mainly focuses on the development and changes in the natural world. Always trying to dismantle and re-consider the things, the things as we know them. The things we like to consider facts or even knowledge.
     gravatar:         https://s.gravatar.com/avatar/f83141edd9e6339e678648596a403fd5?s=150
@@ -67,7 +67,7 @@ prose:
         field:
           element: "textarea"
           label: "Description"
-          placeholder: "Used by social media and Google in search results page."
+          help: "Used by social media and Google in search results page."
       - name: "image"
         field:
           element: "text"
